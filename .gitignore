@@ -11,7 +11,6 @@
 # Generated files
 gen/
 out/
-exported-navigation-state-machine.js
 
 # Gradle files
 .gradle/
@@ -68,18 +67,6 @@ captures/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
-# Freeline
-freeline.py
-freeline/
-freeline_project_description.json
-
-# fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-fastlane/readme.md
-
 # javascript libraries
 node_modules
 npm-debug.log
@@ -91,12 +78,6 @@ __generated__
 
 # Expo Client builds
 /client-builds
-
-# Expo web env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 # macOS
 .DS_Store
@@ -114,9 +95,6 @@ tsc-out
 # vscode
 .vscode/
 
-# Token generation config file
-gen-jwt.credentials.json
-
 # Version name and version code
 version.json
 
@@ -127,17 +105,6 @@ buck-out/
 \.buckd/
 *.keystore
 !debug.keystore
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
-
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
 
 # Bundle artifact
 *.jsbundle
